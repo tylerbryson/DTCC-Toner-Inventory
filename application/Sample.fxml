@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ButtonBar layoutX="200.0" layoutY="142.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="csvButton" mnemonicParsing="false" onAction="#csvButtonPressed" text="CSVs" />
+            <Button fx:id="printerButton" mnemonicParsing="false" onAction="#printerButtonPressed" text="Printers" />
+            <Button fx:id="tonerButton" mnemonicParsing="false" onAction="#tonerButtonPressed" text="Toners" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
