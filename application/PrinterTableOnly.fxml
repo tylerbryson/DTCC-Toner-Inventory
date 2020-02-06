@@ -24,4 +24,4 @@
       <Button fx:id="backButton" layoutX="700.0" layoutY="254.0" mnemonicParsing="false" onAction="#backButtonPushed" text="Back" />
    </children>
 </AnchorPane>
-© 2020 GitHub, Inc.
+
