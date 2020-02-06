@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="280.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrinterTableOnlyController">
+   <children>
+      <TableView fx:id="tableView" prefHeight="250.0" prefWidth="752.0">
+        <columns>
+          <TableColumn fx:id="barCodeColumn" prefWidth="75.0" text="Bar Code" />
+          <TableColumn fx:id="descriptionColumn" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="categoryColumn" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="locationColumn" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="serialNumColumn" prefWidth="75.0" text="Serial Num" />
+            <TableColumn fx:id="manuColumn" prefWidth="75.0" text="Manufacturer" />
+            <TableColumn fx:id="divisionColumn" prefWidth="75.0" text="Division" />
+            <TableColumn fx:id="departmentColumn" prefWidth="75.0" text="Department" />
+            <TableColumn fx:id="campusColumn" prefWidth="75.0" text="Campus" />
+            <TableColumn fx:id="statusColumn" prefWidth="75.0" text="Status" />
+        </columns>
+      </TableView>
+      <Button fx:id="backButton" layoutX="700.0" layoutY="254.0" mnemonicParsing="false" onAction="#backButtonPushed" text="Back" />
+   </children>
+</AnchorPane>
+© 2020 GitHub, Inc.
